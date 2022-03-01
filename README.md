@@ -22,10 +22,34 @@ $ git clone https://github.com/shun0315/rese-app-docker.git
 $ mkdir src
 ```
 
-#### src ディレクトリに移動
+#### Dockerfile からイメージをビルド
 
 ```
-$ cd src
+$ docker compose build
 ```
 
-### src ディレクトリでプロジェクトを作成し、ご利用ください
+#### Docker コンテナの起動
+
+```
+$ docker compose up -d
+```
+
+#### app コンテナへ移動
+
+```
+$ docker compose exec app bash
+```
+
+####　 app コンテナ内でプロジェクトを作成
+
+- 例
+
+```
+$ composer create-project "laravel/laravel=8.*" [プロジェクト名] --prefer-dist
+```
+
+- 例
+
+```
+$ git clone [任意のプロジェクト]
+```
