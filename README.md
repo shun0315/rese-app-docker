@@ -16,6 +16,14 @@ $ cd [任意のディレクトリ]
 $ git clone https://github.com/shun0315/rese-app-docker.git
 ```
 
+#### .env の作成
+
+※詳細な設定については、ご自身の環境に合わせて設定してください
+
+```
+$ cp .env.example .env
+```
+
 #### src ディレクトリを作成
 
 ```
@@ -40,7 +48,7 @@ $ docker compose up -d
 $ docker compose exec app bash
 ```
 
-####　 app コンテナ内でプロジェクトを作成
+#### app コンテナ内でプロジェクトを作成
 
 - 例
 
