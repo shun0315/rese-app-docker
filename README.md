@@ -13,7 +13,7 @@ $ cd [任意のディレクトリ]
 #### Github から Clone
 
 ```
-$ git clone https://github.com/shun0315/rese-app.git
+$ git clone https://github.com/shun0315/rese-app-docker.git
 ```
 
 #### src ディレクトリを作成
@@ -28,4 +28,4 @@ $ mkdir src
 $ cd src
 ```
 
-src ディレクトリでプロジェクトを作成し、ご利用ください
+### src ディレクトリでプロジェクトを作成し、ご利用ください
